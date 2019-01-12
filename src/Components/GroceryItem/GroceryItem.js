@@ -6,19 +6,28 @@ class GroceryItem extends Component {
         checked: false
     };
 
+    checkHandler = () => {
+        this.setState({
+            checked: !this.state.checked,
+        })
+    };
+
     render() {
-        const {item} = this.props;
+        const {checked} = this.state;
+        const {item, id} = this.props;
 
         return (
-            <li>
-                {item}
-            </li>
+            <div onClick={this.checkHandler}>
+                <input type="checkbox" id={id} name={item} checked={checked} />
+                <label>{item}</label>
+            </div>
         )
     }
 }
 
 GroceryItem.propTypes = {
     item: PropTypes.string.isRequired,
+    id: PropTypes.any.isRequired,
 };
 
 export default GroceryItem;

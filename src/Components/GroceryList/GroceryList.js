@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import './GroceryList.scss';
+
 import GroceryItem from '../GroceryItem/GroceryItem';
 
 export default class GroceryList extends Component {
@@ -27,9 +29,12 @@ export default class GroceryList extends Component {
     render() {
         const { groceryList, itemDraft } = this.state;
         return (
-            <div>
+            <div className="container">
+                <div>
+                    <h1 className="title">Grocery List</h1>
+                </div>
                 <ul>
-                    { groceryList.map( (groceryItem, index) => <GroceryItem key={index} item={groceryItem} />
+                    { groceryList.map( (groceryItem, index) => <GroceryItem key={index} id={index} item={groceryItem} />
                     )}
                 </ul>
                 <input type="text" value={itemDraft} onChange={this.updateDraft}/>

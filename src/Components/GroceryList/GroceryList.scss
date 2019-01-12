@@ -1,0 +1,30 @@
+@import "../../GlobalStyles/abstract";
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Libre+Barcode+128+Text');
+
+.container {
+  width: 80vw;
+  background: azure;
+  margin: auto;
+
+  @include respond(md) {
+    width: 500px;
+  }
+
+  @include respond(retina) {
+    width: 1000px;
+  }
+}
+
+.title {
+  text-align: center;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 3rem;
+
+  @include respond(md) {
+    font-size: 5rem;
+  }
+
+  @include respond(retina) {
+    font-size: 10rem;
+  }
+}

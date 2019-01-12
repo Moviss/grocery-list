@@ -1,0 +1,37 @@
+// Horizontal center
+@mixin center-horizontal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+//Media breakepoints the same as Bootstrap
+@mixin respond($breakpoint) {
+  @if $breakpoint == sm {
+    @media (min-width: 576px) { @content };
+  }
+  @if $breakpoint == md {
+    @media (min-width: 768px) { @content };
+  }
+  @if $breakpoint == lg {
+    @media (min-width: 992px) { @content };
+  }
+  @if $breakpoint == xl {
+    @media (min-width: 1200px) { @content };
+  }
+  @if $breakpoint == retina {
+    @media (min-resolution: 192dpi) { @content };
+  }
+}
+
+// Text size
+@mixin text-size($font-size, $line-height) {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+// Basic transition
+@mixin basic-transition {
+  transition: all .25s ease-in-out;
+}
