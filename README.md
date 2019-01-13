@@ -4,8 +4,8 @@
 
 ## Main features:
 * list where you can add your's grocery needs
-* feature to send SMS with your list
-* feature to send email with your list 
+* clicking on item you can mark it checked
+* clicking on recycle bin icon you can remove item from the list
 
 -----------------------------
 

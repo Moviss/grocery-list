@@ -3,22 +3,26 @@
 
 .singleItem-container {
   display: flex;
-  width: 25.8rem;
+  width: 13rem;
   height: auto;
   margin: 1rem auto;
   background: $dark;
+
+  @include respond(md) {
+    width: 25.8rem;
+  }
 }
 
 .singleItem {
+  overflow: hidden;
   flex: 4;
   align-self: center;
   width: 22.1rem;
-  padding: .5rem;
-  //margin: 1rem auto;
+  padding: .3rem;
   background: $dark;
   color: $white;
   font-family: 'Indie Flower', cursive;
-  font-size: 1rem;
+  font-size: .85rem;
   @include respond(md) {
     font-size: 1.5rem;
   }

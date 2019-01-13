@@ -14,11 +14,15 @@
 .RecycleBin {
   padding-right: 1rem;
   background: none;
-  height: 1.49rem;
+  height: 1rem;
   width: auto;
   align-self: center;
   cursor: pointer;
   background: $dark;
+
+  @include respond(md) {
+    height: 1.49rem;
+  }
 }
 
 .RecycleBin:hover {

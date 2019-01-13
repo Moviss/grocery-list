@@ -57,10 +57,9 @@ export default class GroceryList extends Component {
                     )}
                 </div>
                 <div className="inputs">
-                    <input className="input" placeholder={"What to buy?"} type="text" value={itemDraft} onChange={this.updateDraft}/>
+                    <input className="input" placeholder={"What do you want to buy?"} type="text" value={itemDraft} onChange={this.updateDraft}/>
                     <button className="addButton" onClick={this.addItem}>Add</button>
                 </div>
-
             </div>
 
         )
