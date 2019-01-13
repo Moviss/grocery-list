@@ -1,10 +1,11 @@
 @import "../../GlobalStyles/abstract";
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Libre+Barcode+128+Text');
+@import "../../GlobalStyles/variables";
 
 .container {
   width: 80vw;
-  background: azure;
-  margin: auto;
+  background: $white;
+  margin: 2rem auto;
+  min-height: 80vh;
 
   @include respond(md) {
     width: 500px;
@@ -19,6 +20,8 @@
   text-align: center;
   font-family: 'Libre Barcode 128 Text', cursive;
   font-size: 3rem;
+  margin: 0;
+  color: $dark;
 
   @include respond(md) {
     font-size: 5rem;
@@ -28,3 +31,73 @@
     font-size: 10rem;
   }
 }
+
+.date {
+  width: 100%;
+  text-align: right;
+}
+
+.date-text {
+  padding-right: 1rem;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 700;
+  color: $blue;
+  font-size: 1rem;
+  @include respond(md) {
+    font-size: 1.5rem;
+  }
+}
+
+::placeholder {
+  color: $white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1rem;
+
+  @include respond(md){
+    font-size: 1.5rem;
+  }
+}
+
+.input {
+  border: none;
+  background: $blue;
+  width: 9rem;
+  padding: .5rem;
+  height: 1rem;
+  font-family: 'Indie Flower',cursive;
+  color: $dark;
+  font-size: 1rem;
+
+  @include respond(md) {
+    width: 20rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+.inputs {
+  text-align: center;
+  height: 3.5rem;
+}
+
+.addButton {
+  border: none;
+  background: $green;
+  font-family: 'Indie Flower', cursive;
+  padding: .5rem;
+  font-size: 1rem;
+  height: 2.1rem;
+  color: $dark;
+
+  @include respond(md) {
+    padding: 1rem;
+    height: 3rem;
+  }
+}
+
+.addButton:hover {
+  @include basic-transition;
+  background: $dark;
+  color: $white;
+}
+

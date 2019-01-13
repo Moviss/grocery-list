@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Libre+Barcode+128+Text');
+@import "GlobalStyles/variables";
+
 body {
-  background: lightslategray;
+  box-sizing: border-box;
+  background: $dark;
   max-width: 100vw;
   max-height: 100vh;
+}
+
+textarea {
+  padding: .5rem;
+  border: none;
 }

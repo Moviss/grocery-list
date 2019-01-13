@@ -35,3 +35,7 @@
 @mixin basic-transition {
   transition: all .25s ease-in-out;
 }
+
+.clear {
+  clear: both;
+}
