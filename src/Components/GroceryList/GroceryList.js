@@ -28,6 +28,15 @@ export default class GroceryList extends Component {
         }
     };
 
+    deleteItem = (index) => {
+        const { groceryList } = this.state;
+        const newGroceryList = [...groceryList];
+        newGroceryList.splice(index, 1);
+        this.setState({
+            groceryList: newGroceryList,
+        })
+    };
+
     render() {
         const { groceryList, itemDraft } = this.state;
         const today = new Date();
@@ -44,7 +53,7 @@ export default class GroceryList extends Component {
                     <em className="date-text">{today.getDate()} of {monthNames[today.getMonth()]}</em>
                 </div>
                 <div>
-                    { groceryList.map( (groceryItem, index) => <GroceryItem key={index} id={index} item={groceryItem} />
+                    { groceryList.map( (groceryItem, index) => <GroceryItem key={index} id={index} item={groceryItem} deleteItem={(taskId) => this.deleteItem(taskId)}/>
                     )}
                 </div>
                 <div className="inputs">

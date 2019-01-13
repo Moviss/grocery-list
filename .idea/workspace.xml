@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9354c39a-96c6-4d2c-8923-29c91cb472d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/GroceryItem/GroceryItem.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GlobalStyles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SVG/RecycleBin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SVG/RecycleBin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/GroceryItem/GroceryItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GroceryItem/GroceryItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/GroceryItem/GroceryItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GroceryItem/GroceryItem.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/GroceryList/GroceryList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GroceryList/GroceryList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/GroceryList/GroceryList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GroceryList/GroceryList.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GlobalStyles/abstract.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/GlobalStyles/abstract.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,14 +20,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.44608474">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Components/GroceryList/GroceryList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-253">
-                  <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+                <state relative-caret-position="306">
+                  <caret line="59" column="110" lean-forward="true" selection-start-line="59" selection-start-column="110" selection-end-line="59" selection-end-column="110" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -40,20 +38,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/GlobalStyles/abstract.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="943">
+                <state relative-caret-position="-7">
                   <caret line="41" selection-start-line="41" selection-end-line="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Components/GroceryItem/GroceryItem.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="24" column="86" lean-forward="true" selection-start-line="24" selection-start-column="86" selection-end-line="24" selection-end-column="86" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -61,8 +47,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/GlobalStyles/variables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+                <state relative-caret-position="69">
+                  <caret line="3" column="12" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -74,7 +60,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/GlobalStyles/abstract.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="897">
+                <state relative-caret-position="-7">
                   <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
                 </state>
               </provider>
@@ -84,16 +70,28 @@
             <entry file="file://$PROJECT_DIR$/src/App.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="276">
-                  <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+                  <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Components/GroceryItem/GroceryItem.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="506">
+                  <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Components/GroceryList/GroceryList.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+                <state relative-caret-position="345">
+                  <caret line="81" column="16" lean-forward="true" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -101,15 +99,28 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Components/GroceryItem/GroceryItem.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="513">
-                  <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+                <state relative-caret-position="115">
+                  <caret line="5" column="14" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Components/GroceryItem/recycleBin.svg">
-              <provider selected="true" editor-type-id="images" />
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Components/SVG/RecycleBin.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-7">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Components/SVG/RecycleBin.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-7">
+                  <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+                </state>
+              </provider>
             </entry>
           </file>
         </leaf>
@@ -124,6 +135,16 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#f7931e</find>
+      <find>class</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>#fafffd</replace>
+      <replace>className</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -136,11 +157,14 @@
         <option value="$PROJECT_DIR$/src/GlobalStyles/variables.scss" />
         <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/Components/GroceryList/GroceryList.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/Components/GroceryList/GroceryList.scss" />
+        <option value="$PROJECT_DIR$/src/Components/GroceryItem/recycleBin.svg" />
         <option value="$PROJECT_DIR$/src/Components/GroceryItem/GroceryItem.scss" />
+        <option value="$PROJECT_DIR$/src/Components/SVG/RecycleBin.scss" />
+        <option value="$PROJECT_DIR$/src/Components/SVG/RecycleBin.js" />
         <option value="$PROJECT_DIR$/src/Components/GroceryItem/GroceryItem.js" />
+        <option value="$PROJECT_DIR$/src/Components/GroceryList/GroceryList.js" />
+        <option value="$PROJECT_DIR$/src/Components/GroceryList/GroceryList.scss" />
       </list>
     </option>
   </component>
@@ -191,6 +215,13 @@
               <item name="grocery-list" type="b2602c69:ProjectViewProjectNode" />
               <item name="grocery-list" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="SVG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grocery-list" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grocery-list" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="GlobalStyles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -209,6 +240,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -252,7 +284,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547324452452</updated>
-      <workItem from="1547324453842" duration="23327000" />
+      <workItem from="1547324453842" duration="36485000" />
     </task>
     <task id="LOCAL-00001" summary="Clearing CRA default">
       <created>1547326168014</created>
@@ -282,11 +314,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547334885234</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished main styles and added bin">
+      <created>1547348885425</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547348885425</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23327000" />
+    <option name="totallyTimeSpent" value="36485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -321,7 +360,8 @@
     <MESSAGE value="Creating Grocery List Component" />
     <MESSAGE value="Created Grocery Item and adding item feature" />
     <MESSAGE value="Adding styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding styles" />
+    <MESSAGE value="Finished main styles and added bin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished main styles and added bin" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -343,7 +383,7 @@
     <entry file="file://$PROJECT_DIR$/src/App.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -364,27 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GlobalStyles/abstract.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GlobalStyles/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/GroceryList/GroceryList.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -392,10 +411,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GlobalStyles/abstract.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GlobalStyles/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/GroceryItem/recycleBin.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/SVG/RecycleBin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/SVG/RecycleBin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/GroceryList/GroceryList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        <state relative-caret-position="306">
+          <caret line="59" column="110" lean-forward="true" selection-start-line="59" selection-start-column="110" selection-end-line="59" selection-end-column="110" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -404,21 +454,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/GroceryItem/GroceryItem.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="115">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/GroceryItem/recycleBin.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/GroceryItem/GroceryItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="86" lean-forward="true" selection-start-line="24" selection-start-column="86" selection-end-line="24" selection-end-column="86" />
+        <state relative-caret-position="506">
+          <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/GroceryList/GroceryList.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="81" column="16" lean-forward="true" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
         </state>
       </provider>
     </entry>

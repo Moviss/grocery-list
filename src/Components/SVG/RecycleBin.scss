@@ -1,0 +1,27 @@
+@import "../../GlobalStyles/variables";
+@import "../../GlobalStyles/abstract";
+
+.cls-1 {
+  fill: $white;
+}
+.cls-2 {
+  fill:none;
+  stroke: $white;
+  stroke-miterlimit:10;
+  stroke-width:2px;
+}
+
+.RecycleBin {
+  padding-right: 1rem;
+  background: none;
+  height: 1.49rem;
+  width: auto;
+  align-self: center;
+  cursor: pointer;
+  background: $dark;
+}
+
+.RecycleBin:hover {
+  fill: $coral;
+  stroke: $coral;
+}

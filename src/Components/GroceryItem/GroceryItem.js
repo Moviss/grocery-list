@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import './GroceryItem.scss';
-import bin from './recycleBin.svg';
+import RecycleBin from '../SVG/RecycleBin';
 
 class GroceryItem extends Component {
     state = {
@@ -16,14 +16,19 @@ class GroceryItem extends Component {
 
     render() {
         const {checked} = this.state;
-        const {item, id} = this.props;
+        const {item, id, deleteItem} = this.props;
 
         return (
-            <div className={`singleItem ${checked ? 'checked' : ''}`} onClick={this.checkHandler}>
-                <input type="checkbox" id={id} name={item} checked={checked} />
-                <label>{item}</label>
-                <img src={bin} alt="Bin"/>
+            <div className="singleItem-container">
+                <div className={`singleItem ${checked ? 'checked' : ''}`} onClick={this.checkHandler}>
+                    <input type="checkbox" id={id} name={item} checked={checked}/>
+                    <label>{item}</label>
+                </div>
+                <p onClick={() => deleteItem(id)}>
+                    <RecycleBin/>
+                </p>
             </div>
+
         )
     }
 }
@@ -31,6 +36,7 @@ class GroceryItem extends Component {
 GroceryItem.propTypes = {
     item: PropTypes.string.isRequired,
     id: PropTypes.any.isRequired,
+    deleteItem: PropTypes.func.isRequired,
 };
 
 export default GroceryItem;

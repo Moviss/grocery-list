@@ -1,10 +1,20 @@
 @import "../../GlobalStyles/abstract";
 @import "../../GlobalStyles/variables";
 
+.singleItem-container {
+  display: flex;
+  width: 25.8rem;
+  height: auto;
+  margin: 1rem auto;
+  background: $dark;
+}
+
 .singleItem {
-  width: 24.5rem;
+  flex: 4;
+  align-self: center;
+  width: 22.1rem;
   padding: .5rem;
-  margin: .5rem auto;
+  //margin: 1rem auto;
   background: $dark;
   color: $white;
   font-family: 'Indie Flower', cursive;
@@ -21,13 +31,9 @@
     margin-left: .5rem;
   }
 
-  img {
-    display: block;
-    float: right;
-    height: 1rem;
-    width: auto;
-    margin-right: .5rem;
-    margin-top: .3rem;
+  img:hover {
+    background: $coral;
+    cursor: pointer;
   }
 }
 
